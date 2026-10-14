@@ -1,0 +1,15 @@
+{
+  "name": "atropos251",
+  "tag": "atropos251",
+  "description": "Replace Atropos with the official ANTs 2.5.1 build. ncanda-image-processing-scripts needs this on bases with ANTs 2.5.2 or later.",
+  "requires": { "ants": ">=2.5.2" },
+  "files": [
+    {
+      "src": "Atropos",
+      "replace": "/usr/local/tools/ants/install/bin/Atropos",
+      "sha256": "f67ea83c4968a6860804ca9f92338af9f07ca4049510770c9073a60dc998e70d"
+    }
+  ],
+  "origin": "Unmodified Atropos from the official ANTs v2.5.1 release: https://github.com/ANTsX/ANTs/releases/download/v2.5.1/ants-2.5.1-ubuntu-22.04-X64-gcc.zip (ants-2.5.1/bin/Atropos)",
+  "verify": "verify.sh"
+}

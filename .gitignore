@@ -1,0 +1,7 @@
+*.swp
+build
+.lfsconfig
+resources/cmtk/cmtk-3.4.0
+.DS_Store
+patches/atropos251/Atropos
+patches/qatoolsfix/checkTopology.py

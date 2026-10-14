@@ -1,0 +1,7 @@
+# Downloads you place here (see README)
+*.tar.gz
+*.zip
+fsl/fslinstaller.py
+miniconda/Miniconda3-*.sh
+lwdp/r23/
+naonlm3d/naonlm3d-src/

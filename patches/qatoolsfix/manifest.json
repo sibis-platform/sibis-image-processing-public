@@ -1,0 +1,16 @@
+{
+  "name": "qatoolsfix",
+  "tag": "qatoolsfix",
+  "description": "FreeSurfer 7.3.2 QA tools: checkTopology() returns NaN for values missing from recon-all.log instead of raising UnboundLocalError.",
+  "requires": { "freesurfer": "==7.3.2" },
+  "files": [
+    {
+      "src": "checkTopology.py",
+      "replace": "/usr/local/tools/freesurfer/python/packages/qatoolspython/checkTopology.py",
+      "sha256": "f1cb219b8e55bf992f641f49c1f71a39d3e9e28baefd8789430ffa2a66c5e640",
+      "replaces_sha256": "4f073eecc054ef27a4aad38a14221142ccffe05d4a6db83ee7b4640d5a035f72"
+    }
+  ],
+  "origin": "FreeSurfer v7.3.2 qatools/qatoolspython/checkTopology.py with the six return values initialized to NaN before parsing recon-all.log, backported from upstream fsqc. This is not the latest fsqc, which computes hole counts from the surfaces with lapy.",
+  "verify": "verify.sh"
+}
