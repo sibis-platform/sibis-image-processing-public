@@ -98,6 +98,26 @@ apptainer exec --compat --home /home/ncanda \
 A patched image is an existing image with specific files replaced, to fix one tool without
 rebuilding everything. See [PATCHES.md](PATCHES.md).
 
+## Citing
+
+If you use this container with the NCANDA pipelines, please cite:
+
+- **Segmentations (structural, diffusion and resting-state pipelines):** Pfefferbaum A, Kwon D,
+  Brumback T, et al. Altered brain developmental trajectories in adolescents after initiating
+  drinking. *Am J Psychiatry*. 2018;175(4):370-380.
+- **Diffusion measurements:** Pohl KM, Sullivan EV, Rohlfing T, et al. Harmonizing DTI measurements
+  across scanners to examine the development of white matter microstructure in 803 adolescents of
+  the NCANDA study. *NeuroImage*. 2016;130:194-213. doi:10.1016/j.neuroimage.2016.01.061
+- **Resting-state processing:** Zhao Q, Kwon D, Müller-Oehring EM, et al. Longitudinally consistent
+  estimates of intrinsic functional networks. *Hum Brain Mapp*. 2019;40(8):2511-2528.
+
+Please also cite the tools and atlases you use, per their own instructions.
+
+## Acknowledgments
+
+Development of this software was partly supported by funding from the National Institute on Alcohol
+Abuse and Alcoholism of the National Institutes of Health (U24 AA021697).
+
 ## License
 
 The Dockerfile and build scripts in this repository are BSD 3-Clause, Copyright SRI International
